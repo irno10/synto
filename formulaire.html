@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body style="background-color:#C6FF00">
+    <form>
+<fieldset style="border:4pxrgb(250,10,202) solid"><legend>Formulaire</legend>
+<p>
+   <ul>
+      <li><input type="checkbox"><label for="civilité">Mademoiselle</label></li>
+      <li><input type="checkbox"><label for="civilité">Madame</label></li>
+      <li><input type="checkbox"><label for="civilité">Monsieur</label></li>
+   </ul>
+</p>
+<fieldset style="border:2px black dotted"><legend>Etat civil</legend>
+<p>
+   <u>Nom:</u>
+   <input type="text" name="nom de famille" placeholder="Nom"required>
+   <u>Prénoms :</u>
+   <input type="text" name="prénoms" placeholder="Prénoms" required>
+</p>
+<p>
+   <u>Date de naissance :</u>
+   <input type="text" name="Naissance" placeholder="jj/mm/aaaa"></fieldset>
+</p>
+<fieldset style="border2px black dotted"><legend>Profil</legend>
+<p>
+   <u>Situation matrimoniale</u>
+   <input type="text" name="situation matrimoniale" required>
+</p>
+<u>E-mail:</u>
+<input type="mail" name="mail" placeholder="E-mail" required>
+<br><u>Mot de passe:</u>
+<input type="password" placeholder="Password" resuired>
+<br><b>Photo:</b>
+<input type="file" placeholder="Choisir un fichier" required></fieldset>
+<div>
+    <u>Sexe:</u>
+    <input type="radio"><label for="sexe">Féminin</label>
+    <input type="radio"><label for="sexe">Masculin</label>
+</div>
+<br>
+<u>Pays d'origine:</u>
+<select>
+   <option>Afrique du Sud</option>
+   <option>Angola</option>
+   <option>Algérie</option>
+   <option>Bénin</option>
+   <option>Burkina-faso</option>
+   <option>Togo</option>
+   <option>Nigéria</option>
+   <option>Cameroun</option>
+   <option>Ghana</option>
+   <option>Niger</option>
+   <option>Zimbabwe</option>
+   <option>Côte d'Ivoire</option>
+   <option>Botswana</option>
+   <option>Burundi</option>
+   <option>Egypte</option>
+   <option>Mali</option>
+   <option>Sénégal</option>
+   <option>Gambie</option>
+   <option>Mozambique</option>
+   <option>Sierra Leone</option>
+   <option>Cap vert</option>
+   <option>RDC</option>
+   <option>Comores</option>
+   <option>Erythrée</option>
+   <option>Somalie</option>
+</select>
+   <br><h3>Passe-temps préférés</h3>
+   <input type="checkbox"><label>Musique</label>
+   <br><input type="checkbox"><label>Football</label>
+   <br><input type="checkbox"><label>Basketball</label>
+   <br><input type="checkbox"><label>Programmation</label><br><input type="button" value="Quitter"><input type="submit" value="Effacer">
+   </form>
+</body>
+</html>
